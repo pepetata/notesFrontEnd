@@ -1,0 +1,58 @@
+.error {
+  border: 2px solid red;
+}
+
+input:focus {
+  border: 5px solid orange; /* Apply orange border when the field is focused */
+}
+
+.messageError {
+  color: red;
+  background: lightgrey;
+  font-size: 20px;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.notification {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.notification.error {
+  background-color: #ffe0e0;
+  color: #ff0000;
+  border-color: #ff0000;
+  font-weight: bold;
+}
+
+.notification.warning {
+  background-color: #fffacd;
+  color: #b17300;
+  border-color: #dba967;
+}
+
+.notification.success {
+  background-color: #e0ffe0;
+  color: #008000;
+  border-color: #008000;
+}
+
+
+body {
+  font-family: sans-serif;
+}
+
+.country-list div {
+  margin-bottom: 5px;
+}
+
+.country-list button {
+  margin-left: 10px;
+  cursor: pointer;
+}
